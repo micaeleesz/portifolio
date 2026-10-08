@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    top: 0;
+    background-color: rgb(251, 176, 250);
+}
+
+header {
+    background-color: #fffcac;
+    position: relative;
+    height: auto;
+    top: 0;
+    width: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+header h1 {
+    margin: 4px;
+    font-size: 55px;
+}
+
+header p {
+    margin: 4px;
+    font-size: 30px;
+    color:#000000
+}
+
+nav a {
+    color: #ca3cc7;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    gap: 300px;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 60px;
+}
+
+.apresentacao img {
+    width: 200px;
+    height: auto;
+    margin: 20px;
+}
+
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 70%;
+    background-color: rgb(255, 162, 253);
+}
+
+.habilidades img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.card1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    gap: 10px;
+    width: 700px;
+    background-color: rgb(223, 141, 221);
+}
+
+.card2 {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    gap: 10px;
+    width: 700px;
+    background-color: rgb(223, 141, 221);
+}
+
+.atividades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 60px;
+}
+
+p {
+    color: #a03199;
+    font-size: 25px;
+}
+
+
+h2 {
+    color: #020202;
+    font-size: 40px;
+    text-align: center;
+}
+
+h3 {
+    color: #000000;
+
+}
+
+li{
+    font-size: 25px;
+    color: #a03199;
+
+}
+
+footer {
+    background-color: #fffcac;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    position: relative;
+}
+
+footer p{
+    height: 100%;
+    color:#000000;
+    font-size: 20px;
+    text-align: center;
+    margin: auto 0;
+}
+
